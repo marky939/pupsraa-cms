@@ -1,0 +1,5 @@
+.container{margin-top: 60px!important;}
+.col-md-12{margin-left: 500px!important;}
+a {color: #a9a9a9!important;}
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {color:#9d4448!important;}
+a:hover{color: #9d4448!important;background-color: transparent;!important;}
