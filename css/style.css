@@ -9,7 +9,7 @@ a:hover			{color: #9d4448!important;background-color: transparent!important;}
 .logo_container img {bottom: -40px;left: 10px;position: absolute;right: 650px;width: 23%;}
 .school {left: 198px;position: absolute;top: 40px;}
 .logo_container .text1 {font-size: 10px;font-family: 'Open Sans', sans-serif;color: #c0c0c0;}
-.logo_container .text2 {font-size: 12px;font-family: 'Open Sans', sans-serif;color: #c0c0c0;}
+.logo_container .text2 {font-size: 14px;font-family: 'Open Sans', sans-serif;color: #c0c0c0;}
 .logo_container .text3 {font-size: 17px;font-family: 'Trajan Pro', sans-serif;}
 .menu_container {float: right;width: 50%;}
 .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {color:#9d4448!important;}
