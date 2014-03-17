@@ -1,5 +1,15 @@
-.container{margin-top: 60px!important;}
-.col-md-12{margin-left: 500px!important;}
-a {color: #a9a9a9!important;}
+/*----------------------------------------------------------------------------- 
+POLYTECHNIC UNIVERSITY OF THE PHILIPPINES SANTA ROSA CAMPUS CMS
+-----------------------------------------------------------------------------*/
+.container {padding-top: 70px!important;width:1000px!important;margin:0 auto!important;background:#ffffff!important;position:relative!important;}
+a 				{color: #a9a9a9!important;}
 .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {color:#9d4448!important;}
-a:hover{color: #9d4448!important;background-color: transparent;!important;}
+a:hover			{color: #9d4448!important;background-color: transparent;!important;}
+.col-md-12 		{width: 60%!important;}
+img 			{bottom: 40px;margin-bottom: 0;margin-left: 60px !important;position: relative;}
+.school 		{bottom: 165px;left: 215px;position: relative;}
+.school h4 		{font-size: 12px;margin-top: -7px;}
+.school h3 		{font-size: 17px;margin-top: -10px;}
+.school h6		{font-size: 10px;}
+.logo_container {margin-right: 20px;padding-left: 20px;}
+
