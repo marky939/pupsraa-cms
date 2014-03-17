@@ -3,17 +3,17 @@ POLYTECHNIC UNIVERSITY OF THE PHILIPPINES SANTA ROSA CAMPUS CMS
 -----------------------------------------------------------------------------*/
 
 /* HEADER */
-.container {padding-top: 70px!important;width:1000px!important;margin:0 auto!important;background:#ffffff!important;position:relative!important;}
+#header-container {padding-top: 70px!important;width:1000px!important;margin:0 auto!important;background:#ffffff!important;position:relative!important;}
 a 				{color: #a9a9a9!important;}
+a:hover			{color: #9d4448!important;background-color: transparent!important;}
+.logo_container img {bottom: -40px;left: 10px;position: absolute;right: 650px;width: 23%;}
+.school {left: 198px;position: absolute;top: 40px;}
+.logo_container .text1 {font-size: 10px;font-family: 'Open Sans', sans-serif;color: #c0c0c0;}
+.logo_container .text2 {font-size: 12px;font-family: 'Open Sans', sans-serif;color: #c0c0c0;}
+.logo_container .text3 {font-size: 17px;font-family: 'Trajan Pro', sans-serif;}
+.menu_container {float: right;width: 50%;}
 .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {color:#9d4448!important;}
-a:hover			{color: #9d4448!important;background-color: transparent;!important;}
-.col-md-12 		{width: 60%!important;}
-img 			{bottom: 60px;margin-bottom: 0;margin-left: 60px !important;position: relative; width: 45%;}
-.school 		{bottom: 165px;left: 225px;position: relative;}
-.school h4 		{font-size: 12px;margin-top: -7px;}
-.school h3 		{font-size: 17px;margin-top: -10px;}
-.school h6		{font-size: 10px;}
-.logo_container {margin-right: 20px;padding-left: 20px;margin-left: -20px;}
+
 
 
 
