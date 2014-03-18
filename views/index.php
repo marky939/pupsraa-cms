@@ -32,7 +32,13 @@
 	<script type="text/javascript" src="../js/scripts.js"></script>
 </head>
 <body>
+  <div class="container">
   <?php include("includes/header.html"); ?>
-  
+  </div>
+
+
+  <div class="bottom">
+    <?php include("includes/footer.html"); ?>
+  </div>
 </body>
 </html>
