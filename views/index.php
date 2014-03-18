@@ -35,6 +35,9 @@
   <div class="container">
   <?php include("includes/header.html"); ?>
   </div>
+  <div class="slider">
+  <?php include("includes/banner.html"); ?>
+</div>
 
 
   <div class="bottom">
