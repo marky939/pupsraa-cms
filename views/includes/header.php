@@ -30,7 +30,5 @@
 		</div>
 	</div>
 </div>
- <div class="slider">
-  <?php include("includes/slider.html"); ?>
-</div>
+
 

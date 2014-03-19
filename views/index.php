@@ -33,12 +33,11 @@
 </head>
 <body>
   <div class="container">
-  <?php include("includes/header.html"); ?>
+  <?php include("includes/header.php"); ?>
   </div>
-  <div class="slider">
+ <div class="slider">
   <?php include("includes/slider.html"); ?>
 </div>
-
 
   <div class="bottom">
     <?php include("includes/footer.html"); ?>
