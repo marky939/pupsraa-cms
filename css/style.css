@@ -1,33 +1,72 @@
 /*----------------------------------------------------------------------------- 
 POLYTECHNIC UNIVERSITY OF THE PHILIPPINES SANTA ROSA CAMPUS CMS
 -----------------------------------------------------------------------------*/
-body {font-family: 'Open Sans', sans-serif!important;}
+body {font-family: 'Gotham Light', sans-serif !important;color:white;}
 
 /* HEADER */
-#header-container {padding-top: 70px!important;width:1000px!important;margin:0 auto!important;background:#ffffff!important;position:relative!important;}
+#header-container {padding-top: 70px!important;width:100%!important;margin:0 auto!important;background:#ffffff!important;position:relative!important;}
 a 				{color: #a9a9a9!important;}
 a:hover			{color: #9d4448!important;background-color: transparent!important;}
-.logo_container img {bottom: -40px;left: 10px;position: absolute;right: 650px;width: 23%;}
-.school {left: 198px;position: absolute;top: 40px;}
+.logo_container img {
+    bottom: -37%;
+    left: 10px;
+    position: absolute;
+    right: 650px;
+    width: 20%;
+    margin-right: auto;
+}
+.school {  left: 210px;
+    position: absolute;
+    top: 40px;
+    width: 30%;}
 .logo_container .text1 {font-size: 10px;font-family: 'Open Sans', sans-serif;color: #c0c0c0;}
 .logo_container .text2 {font-size: 14px;font-family: 'Open Sans', sans-serif;color: #c0c0c0;}
-.logo_container .text3 {font-size: 17px;font-family: 'Trajan Pro', sans-serif;}
-.menu_container {float: right;width: 50%;}
+.logo_container .text3 {font-size: 17px;font-family: 'Trajan Pro', sans-serif;color: #000000;}
+.menu_container {float: right;width: 50%;margin: 0;padding-left: 0;}
 .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {color:#9d4448!important;}
+.nav > li {font-size: 12px;}
+
+
+
+
+
+/* SLIDER */
+.slider {position:relative; padding-top: 40px;padding-bottom: 40px;}
+.slider-container {width:100%; border-top: 5px solid #800000;}
+
+
 
 /*FOOTER */
-.bottom {position:absolute;bottom:0px;width:100%;}
+.bottom {position:relative;bottom:0px;width:100%;font-family: 'Gotham Light', sans-serif !important;}
 #footer_container {
-	min-height:25px;
+	min-height:300px;
 	/*background:url(themes-images/bg_darkgreen_lines.jpg) repeat;*/
 	background:url(../img/footer-bg.jpg) repeat;
 	padding:10px 0 0 0;
 	z-index:20;
 }
 #footer {
-	width:960px;
+	width:100%;
 	margin:auto;
 	padding:20px 0 30px 0;
 	font-size:12px;
-	color:#b2cd79;
+	color:white;
+	min-height: 100%;
+}
+#footer > div {
+    margin-left: 100px;
+}
+.copyright {
+	font-family: 'Gotham Light', sans-serif;
+    bottom: 0;
+    display: block;
+    float: center;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    color:#939393!important;
+    font-size: 10px;
+    margin-bottom: 10px;
 }

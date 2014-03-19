@@ -36,7 +36,7 @@
   <?php include("includes/header.html"); ?>
   </div>
   <div class="slider">
-  <?php include("includes/banner.html"); ?>
+  <?php include("includes/slider.html"); ?>
 </div>
 
 
