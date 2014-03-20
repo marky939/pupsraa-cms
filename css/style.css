@@ -2,7 +2,13 @@
 POLYTECHNIC UNIVERSITY OF THE PHILIPPINES SANTA ROSA CAMPUS CMS
 -----------------------------------------------------------------------------*/
 body {font-family: 'Gotham Light', sans-serif !important;color:white;}
-
+.clear {
+    clear:both
+}
+#wrapper {
+    position: relative;
+    min-height: 100%
+}
 /* HEADER */
 #header-container {padding-top: 70px!important;width:100%!important;margin:0 auto!important;background:#ffffff!important;position:relative!important;}
 a 				{color: #a9a9a9!important;}
@@ -31,20 +37,86 @@ a:hover			{color: #9d4448!important;background-color: transparent!important;}
 
 
 
-/* SLIDER */
+/* BANNER */
+.menu-hover-arrow {
+    left: 51.5%;
+    position: absolute;
+    top: 6.5%;
+    width: 26px;
+    z-index: 99;
+}
 .slider {position:relative; padding-top: 45px;padding-bottom: 40px;}
 .slider-container {width:100%; border-top: 5px solid #800000;}
+.bg-rectangle {
+    background-color: #800000;
+    height: 50px;
+    margin-top: 20px;
+    min-width: 100%;
+}
+.bg-rec-container {
+    height: 100%;
+    padding-top: 15px;
+    margin: auto;
+}
+.arrow {
+    left: 25px;
+    position: absolute;
+    top: 20px;
+    z-index: 99;
+}
+/* SIDEBAR CONTENT */
+.sidebar-news-container{
+    margin-top: -30px;
+    padding-left: 15px;
+    padding-top: 15px;
+    background-color: #f2f2f2;
 
+}
+.sidebar-about-container{
+    margin-top: 35px;
+    padding-left: 15px;
+    padding-top: 15px;
+    background-color: #f2f2f2;
 
+}
+.sidebar-news {
+    background-color: #f2f2f2;
+    min-height: 40px;
+}
+.sidebar-news p .sidebar-news-text{
+    font-family: 'Open Sans', sans-serif!important;
+}
+.content {
+    position: relative;
+}
+.view-news .btn-primary {
+    background-color: #800000!important;
+    border-color: transparent!important;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    margin-left: 150px;
+    margin-top: 25px;
+}
+.media-body a:hover{
+    text-decoration: none!important;
+    color:#800000!important;
+}
+.about-img {
+    margin-left: 65px;
+    padding-bottom: 40px;
+    width: 50%;
+}
 
 /*FOOTER */
-.bottom {position:relative;bottom:0px;width:100%;font-family: 'Gotham Light', sans-serif !important;}
+.bottom {position:relative;bottom:0px;min-height: 340px;width:100%;font-family: 'Gotham Light', sans-serif !important;}
 #footer_container {
-	min-height:300px;
-	/*background:url(themes-images/bg_darkgreen_lines.jpg) repeat;*/
-	background:url(../img/footer-bg.jpg) repeat;
-	padding:10px 0 0 0;
-	z-index:20;
+    background: url("../img/footer-bg.jpg") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    bottom: 0;
+    min-height: 300px;
+    padding: 10px 0 0;
+    position: absolute;
+    width: 100%;
+    z-index: 20;
 }
 #footer {
 	width:100%;
@@ -79,12 +151,27 @@ a:hover			{color: #9d4448!important;background-color: transparent!important;}
     width: 15%!important;
 }
 .connect {
-    text-align: left;
+
+    margin-left: -13px;
     margin-top: 20px;
+    text-align: left;
+    width: 180px;
 }
 .container1 {
     padding-left: 240px;
 }
 .connect li {
     font-size: 12px;
+}
+.align1 {
+    margin-right: 30px;
+}
+.align2 {
+    margin-right: 50px;
+}
+.align3 {
+    margin-right: 7px;
+}
+.align4 {
+    margin-right: 5px;
 }

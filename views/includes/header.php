@@ -5,8 +5,8 @@
 				<a href="#"><img alt="140x140" src="../img/pup-logo.png" /></a>
 				<div class="school">
 					<span class="text1">Polytechnic University of the Philippines</span><br>
-					<span class="text2"><strong style="color:#000000!important;">Santa Rosa</strong> <style="color: #c0c0c0;">Campus</style></span><br>
-					<span class="text3"><strong>ALLUMNI ASSOCIATION INC.</span>
+					<span class="text2"><strong style="color:#000000!important;">Santa Rosa</strong> <span style="color: #c0c0c0;">Campus</span></span><br>
+					<span class="text3"><strong>ALLUMNI ASSOCIATION INC.</strong></span>
 				</div>
 			</div>
 		<div class="menu_container">

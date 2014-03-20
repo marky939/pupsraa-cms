@@ -32,15 +32,27 @@
   <script type="text/javascript" src="../js/scripts.js"></script>
 </head>
 <body>
+<div id="wrapper">
   <div class="container">
-  <?php include("includes/header.php"); ?>
+    <?php include("includes/header.php"); ?>
   </div>
- <div class="slider">
-  <?php include("includes/slider.html"); ?>
-</div>
 
-  <div class="bottom">
-    <?php include("includes/footer.html"); ?>
+  <div class="slider">
+    <?php include("includes/banner.html"); ?>
   </div>
+
+  <div class="content">
+     <?php include("includes/sidebar-news.php");?>
+     <div class="clear"></div>
+     <?php include("includes/sidebar-about.php"); ?>
+  </div>
+
+
+<div class="clear"></div>
+   <div class="bottom">
+     <?php include("includes/footer.html"); ?>
+  </div>
+<div class="clear"></div>
+
 </body>
 </html>
